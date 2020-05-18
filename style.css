@@ -7,15 +7,35 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
+
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
+	outline: none!important;
+	opacity: 1;
+
+	
+}
+a{
+    color:rgb(243, 223, 108);
+}
+a:hover {
+	opacity: .9;
+	color: #e7e79e;
+
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
+ul {
+    list-style: none;
+   
+}
+
+li {
+    padding: 0;
+    margin: 0 0 3px;
+    font-size: 16px;
+    font-weight: 800;
+    color:rgb(243, 223, 108);
+    text-align: center;
 }
 
 #page-loading-blocs-notifaction {
@@ -660,7 +680,7 @@ h6,
 p,
 label,
 .btn,
-a {
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important;
@@ -728,6 +748,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 !important;
+    text-align: center;
 }
 
 .med-width-whitespace {
@@ -785,20 +806,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background: rgb(146, 53, 9);
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: rgb(243, 223, 108) !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgb(146, 53, 9);
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #b9430d !important;
     color: #FFFFFF !important;
 }
 
